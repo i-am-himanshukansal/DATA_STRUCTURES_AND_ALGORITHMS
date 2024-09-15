@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -24,6 +25,7 @@ public:
 };
 
 int main() {
+    cout<<"two sum problem has solve : "<<endl;
     Solution solution;
     int numCases = 8;
     int n, target;
