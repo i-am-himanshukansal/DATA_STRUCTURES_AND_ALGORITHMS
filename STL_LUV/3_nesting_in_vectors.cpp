@@ -25,7 +25,7 @@ int main(){
     }
 
     // v[m+1].push_back(7854);
-
+  cout<<"following are the input vectors"<<endl;
   for(int i=0;i<m;i++){
     printvector(v[i]);
   }
