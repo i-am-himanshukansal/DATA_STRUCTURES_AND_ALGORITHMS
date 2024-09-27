@@ -18,7 +18,7 @@ int main(){
     while(n--){
         int x;
         cin>>x;
-        v.push_back(x);c
+        v.push_back(x);
     }
 
     reversearray(v);
