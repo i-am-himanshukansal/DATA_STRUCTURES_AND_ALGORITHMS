@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Recursions",
-      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Recursions/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/BASICS/HASHING_MAPS",
+      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/BASICS/HASHING_MAPS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
