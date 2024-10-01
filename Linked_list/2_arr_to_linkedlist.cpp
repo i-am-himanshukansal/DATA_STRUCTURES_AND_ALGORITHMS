@@ -37,7 +37,7 @@
     Node*head = convert_arr_2_LL(arr);
     Node*temp=head;
 
-    while(temp->next!=nullptr){
+    while(temp!=nullptr){//temp->next!=nullptr  X(cross)  temp!=nullptr V(right)
     cout<<temp->data<<" ";
     temp = temp->next;
     }

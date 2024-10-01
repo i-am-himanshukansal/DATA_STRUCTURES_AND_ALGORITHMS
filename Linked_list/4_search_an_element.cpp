@@ -15,16 +15,20 @@
     };
 
 
+
+
+
     Node* array_TO_linkedlist(vector<int>&arr){
-        Node*head = new Node(arr[0]);
-        Node* tail = head;
-        for(int i=1;i<arr.size();i++){
-            Node*temp=new Node(arr[i]);
-            tail->next = temp;
-            tail = temp;
-        }
-        return head;
+    Node*head = new Node(arr[0]);
+    Node* tail = head;
+    for(int i=1;i<arr.size();i++){
+        Node*temp=new Node(arr[i]);
+        tail->next = temp;
+        tail = temp;
     }
+    return head;
+    }
+
 
     bool is_search_an_element(Node*head,int &target){
         Node*temp = head;
@@ -37,10 +41,13 @@
             return false;
     }
 
-
     int main(){
-
         vector<int>arr = {1,2,3,5,4,6,78,9,12,45,56,23,45,78};
+        cout<<"The elements present in the array are : ";
+        for(int i=0;i<arr.size();i++){
+            cout<<arr[i]<<" ";
+        }
+        cout<<endl;
         Node*head = array_TO_linkedlist(arr);
         Node*temp = head;
         int target;
@@ -52,7 +59,5 @@
         }else{
             cout<<"element is not present in linked list"<<endl;
         }
-
-
         return 0;
     }

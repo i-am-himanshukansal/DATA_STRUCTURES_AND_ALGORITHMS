@@ -18,6 +18,7 @@ int main(){
     cin>>t;
     while(t--){
         char charac;
+        cout<<"enter char"<<endl;
         cin>>charac;
         cout<<"frequency of the"<<charac<<"be : "<<hash[charac-'a']<<endl;
         
