@@ -16,8 +16,7 @@
             for(int i=1;i<arr.size();i++){
                 Node*temp = new Node(arr[i]);
                 tail->next = temp;
-                tail = temp;
-                
+                tail = temp;    
             }
             return head;
         }
@@ -31,7 +30,7 @@
     vector<int>arr;
     cout<<"enter elements in the given vector v : ";
     for(int i=0;i<n;i++){
-        int x;
+        int x;      
         cin>>x;
         arr.push_back(x);
     }
