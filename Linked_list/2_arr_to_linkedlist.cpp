@@ -25,11 +25,22 @@
  
  int main(){
 
-    vector<int>arr={1,2,2,3,2,5,6,7,8,9,10};
+    int n;
+    cout<<"enter size of the elemenets : ";
+    cin>>n;
+    vector<int>arr;
+    cout<<"enter elements in the given vector v : ";
+    for(int i=0;i<n;i++){
+        int x;
+        cin>>x;
+        arr.push_back(x);
+    }
     Node*head = convert_arr_2_LL(arr);
-    while(head->next!=nullptr){
-    cout<<head->data<<" ";
-    head = head->next;
+    Node*temp=head;
+
+    while(temp->next!=nullptr){
+    cout<<temp->data<<" ";
+    temp = temp->next;
     }
 
 
