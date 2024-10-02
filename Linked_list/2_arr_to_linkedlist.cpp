@@ -40,7 +40,7 @@
     while(temp!=nullptr){//temp->next!=nullptr  X(cross)  temp!=nullptr V(right)
     cout<<temp->data<<" ";
     temp = temp->next;
-    }
+    }//himanshukansal_iiitu
 
 
     return 0;
