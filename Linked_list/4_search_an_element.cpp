@@ -23,7 +23,7 @@
     Node* tail = head;
     for(int i=1;i<arr.size();i++){
         Node*temp=new Node(arr[i]);
-        tail->next = temp;
+        tail->next = temp;++
         tail = temp;
     }
     return head;
@@ -50,7 +50,7 @@
         cout<<endl;
         Node*head = array_TO_linkedlist(arr);
         Node*temp = head;
-        int target;
+          int target;
         cout<<"Enter target : ";
         cin>>target;
 
