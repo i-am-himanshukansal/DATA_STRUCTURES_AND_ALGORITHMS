@@ -45,7 +45,7 @@ Node* deletehead(Node*head){
 int main(){
     vector<int>v={1,2,3,45,56,89,45,12,3,5,56,89,45,7845};
     Node*head = array_TO_linkedlist(v);
-    cout<<"before deleting head "<<" " ;
+    cout<<"before deleting  head "<<" " ;
     print_ll(head);
     cout<<endl;
     head = deletehead(head);
