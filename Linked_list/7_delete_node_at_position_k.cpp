@@ -34,6 +34,12 @@ void print_ll(Node*head){
 }
 Node* delete_node_at_k_position(Node*head, int &k){
 
+
+    if(!head ||k<=0){
+        cout<<"invalid position or empty list.\n";
+        return head;
+    }
+
     //head pe delete ka case k=1
     //aesi position jaha temp->next
     Node*temp=head;
@@ -91,7 +97,7 @@ int main(){
     cin>>position;
 
 
-    vector<int>v={1,2,3,45,56,89,45,12,3,5,56,89,45,7845};
+    vector<int>v={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30};
     Node*head = array_TO_linkedlist(v);
     cout<<"before deleting  node  at "<<position<<" position : ";
     print_ll(head);
