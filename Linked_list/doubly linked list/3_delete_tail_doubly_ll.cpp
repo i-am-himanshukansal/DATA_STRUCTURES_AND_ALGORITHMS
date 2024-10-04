@@ -43,12 +43,12 @@ Node*delete_tail(Node*head){
         return NULL;
     }
     Node*temp = head;
-    while(temp->next!=nullptr){
+    while(temp->next!=NULL){
         temp=temp->next;
     }
     cout<<"tail->prev->next before delete : " <<temp->prev->next<<" " <<temp->prev->next->data<<" \n";
     temp->prev->next = nullptr;
-    cout<<"tail->prev->next after delete : "<< temp->prev->next<<" " <<temp->data<<" ";
+    cout<<"tail->prev->next after connectin to null : "<< temp->prev->next<<" " <<temp->data<<" ";
     temp->prev=nullptr;
     delete temp;
     cout<<"\ndata of temp after delete : "<<temp->next;
