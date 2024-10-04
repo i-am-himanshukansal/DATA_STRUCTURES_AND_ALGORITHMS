@@ -65,7 +65,6 @@ int main(){
         delete_node(sample);
         cout<<"\nlinked list after delete the  node"<<" : ";
         print_ll(head);
-
         
         return 0;
 }
