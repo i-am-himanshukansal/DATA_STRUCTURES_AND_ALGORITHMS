@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list",
-      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/build/doubly linked list",
+      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/build/doubly linked list/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
