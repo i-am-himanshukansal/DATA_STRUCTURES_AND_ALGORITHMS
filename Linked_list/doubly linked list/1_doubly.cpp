@@ -34,12 +34,13 @@ void print_ll(Node*head){
 int main(){
      vector<int>v = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
         Node*head = array_to_doubly_linkedlist(v);
+        cout<<"after input : ";
         print_ll(head);
         // Node*sample = new Node(45);
         // sample->next = head;
         // head->prev = sample;
         // head = sample;
-
+        cout<<"created linked list doubly : ";
         print_ll(head);
 
         return 0;

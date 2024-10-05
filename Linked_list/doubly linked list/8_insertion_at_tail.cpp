@@ -58,8 +58,8 @@ Node*insertion_at_tail(Node*head,int x){
 }
 
 int main(){
-// vector<int>v={1,23,45,56,89,7,45,56,53,22};
-  vector<int>v;
+vector<int>v={1,23,45,56,89,7,45,56,53,22};
+  // vector<int>v;
 Node*head = array_to_doubly_linkedlist(v);
 cout<<"\nlinked list before inserting at tail"<<" : ";
 print_ll(head); 
