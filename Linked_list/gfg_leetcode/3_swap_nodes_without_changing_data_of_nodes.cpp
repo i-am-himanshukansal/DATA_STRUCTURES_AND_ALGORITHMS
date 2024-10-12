@@ -64,7 +64,5 @@ int main() {
     head = swapPairs(head);
     std::cout << "Swapped List: ";
     printList(head);
-
-    // Clean up memory (not shown here for brevity)
     return 0;
 }
