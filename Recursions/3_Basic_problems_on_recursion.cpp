@@ -11,6 +11,7 @@
                 // int main(){
                 //         printname();
                 //         return 0 ;
+                // xyz
                 // }
 
                             //print linearly from 1 to N//////////////////////////////////////////////

@@ -12,6 +12,8 @@ class Node{
     Node(int data1){
         this->data=data1;
         this->next=nullptr;
+        // himanshukansal
+        cout<<"hello";
     }
 
 };
