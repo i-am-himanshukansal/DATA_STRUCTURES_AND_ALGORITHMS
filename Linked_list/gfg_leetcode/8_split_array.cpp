@@ -44,5 +44,3 @@ int main() {
         cout << ans << endl;
     }
 }
-
-// } Driver Code Ends
