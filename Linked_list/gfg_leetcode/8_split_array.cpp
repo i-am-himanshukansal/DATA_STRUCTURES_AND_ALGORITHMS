@@ -25,7 +25,6 @@ class Solution {
     }
 };
 
-//{ Driver Code Starts.
 int main() {
     string ts;
     getline(cin, ts);
