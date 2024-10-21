@@ -8,7 +8,6 @@ using namespace std;
 class Solution {
   public:
    int countgroup(vector<int>& arr) {
-        // Complete the function
         int mod=1e9+7;
         int x=arr[0];
         for(int i=1;i<arr.size();i++){
