@@ -47,7 +47,7 @@ int main() {
         Solution ob;
         int ans = ob.sameOccurrence(arr, x, y);
         cout << ans << "\n";
-        // cout<<"~"<<endl;
+       
     }
     return 0;
 }
