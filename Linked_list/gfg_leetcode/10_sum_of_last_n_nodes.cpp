@@ -28,7 +28,6 @@ class Solution {
         }
     };
     */
-    // your task is to complete this function
     // function should return sum of last n nodes
      int sumOfLastN_Nodes(struct Node* head, int n) {
         // Code here
