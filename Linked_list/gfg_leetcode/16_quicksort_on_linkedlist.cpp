@@ -53,7 +53,6 @@ struct node
     }
 }; */
 
-// Solution class with quickSort function
 class Solution {
   public:
    struct Node* partition(struct Node* head, struct Node* last){
