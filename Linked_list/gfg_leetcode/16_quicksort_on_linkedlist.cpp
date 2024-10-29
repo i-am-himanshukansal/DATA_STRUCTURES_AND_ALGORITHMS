@@ -88,8 +88,7 @@ class Solution {
 int main() {
     int t;
     cin >> t;
-    cin.ignore(); // Ignore the newline character after reading t
-
+    cin.ignore(); 
     while (t--) {
         vector<int> arr;
         string input;
