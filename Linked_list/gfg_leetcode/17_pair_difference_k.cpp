@@ -24,7 +24,7 @@ class Solution {
             int freqX = pair.second;
             int target = x + k;
 
-            // If `target` exists in the map, count all pairs formed by `x` and `target`
+            
             if (mp.find(target) != mp.end()) 
             {
                 count += freqX * mp[target];
