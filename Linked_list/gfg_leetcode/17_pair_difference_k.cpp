@@ -8,7 +8,6 @@ using namespace std;
 // User function template for C++
 class Solution {
   public:
-    /* Returns count of pairs with difference k  */
     int countPairsWithDiffK(vector<int>& arr, int k) {
         // code here
         sort(arr.begin(),arr.end());
