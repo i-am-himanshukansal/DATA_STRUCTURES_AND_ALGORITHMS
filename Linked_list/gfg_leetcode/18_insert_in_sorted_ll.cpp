@@ -108,7 +108,7 @@ int main() {
 
         int valueToInsert;
         cin >> valueToInsert;
-        cin.ignore(); // Ignore the newline character after the value
+        cin.ignore(); 
 
         Solution obj;
         head = obj.sortedInsert(head, valueToInsert);
