@@ -23,7 +23,6 @@ void printList(struct Node* head) {
 }
 
 
-// } Driver Code Ends
 /*structure of the node of the DLL is as
 struct Node {
     int data;
