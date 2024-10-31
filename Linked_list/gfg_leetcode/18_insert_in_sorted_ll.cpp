@@ -89,7 +89,7 @@ int main() {
 
     while (t--) {
         string input;
-        getline(cin, input); // Read the entire line for the array elements
+        getline(cin, input); 
 
         stringstream ss(input);
         Node *head = nullptr, *tail = nullptr;
