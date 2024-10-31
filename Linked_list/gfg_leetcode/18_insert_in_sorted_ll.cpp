@@ -28,7 +28,7 @@ struct Node {
     int data;
     struct Node* prev, *next;
 };
-*/
+
 // function should insert a new node in sorted way in
 // a sorted doubly linked list
 // Return the head after insertion
