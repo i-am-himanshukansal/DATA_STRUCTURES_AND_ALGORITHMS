@@ -1,8 +1,6 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
-// long long int maxSum(int arr[], int n);
 
 class Solution {
   public:
