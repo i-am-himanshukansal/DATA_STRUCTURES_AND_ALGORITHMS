@@ -34,7 +34,6 @@ int main() {
         vector<int> arr;
         int num;
 
-        // Parse the input line into integers and add to the vector
         while (ss >> num) {
             arr.push_back(num);
         }
