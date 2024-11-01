@@ -4,7 +4,6 @@ using namespace std;
 
 // long long int maxSum(int arr[], int n);
 
-// } Driver Code Ends
 class Solution {
   public:
        long long maxSum(vector<int>& arr) {
