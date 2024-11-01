@@ -26,10 +26,10 @@ class Solution {
 int main() {
     int t;
     cin >> t;
-    cin.ignore(); // To ignore any newline character left in the buffer
+    cin.ignore(); 
     while (t--) {
         string line;
-        getline(cin, line); // Read the entire line of input
+        getline(cin, line); 
         stringstream ss(line);
         vector<int> arr;
         int num;
