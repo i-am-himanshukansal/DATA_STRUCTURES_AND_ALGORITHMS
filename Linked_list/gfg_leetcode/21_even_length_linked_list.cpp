@@ -24,7 +24,9 @@ struct Node {
 
 /*structure of a node of the l
 struct Node
-{
+{   
+    //
+    
     int data;
     struct Node* next;
 
