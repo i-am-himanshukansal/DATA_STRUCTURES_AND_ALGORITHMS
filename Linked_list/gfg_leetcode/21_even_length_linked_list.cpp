@@ -55,7 +55,6 @@ class Solution {
     }
 };
 
-//{ Driver Code Starts.
 
 void printList(struct Node *head) {
     struct Node *temp = head;
