@@ -22,7 +22,6 @@ struct Node {
 };
 
 
-// } Driver Code Ends
 /*structure of a node of the linked list is as
 struct Node
 {
