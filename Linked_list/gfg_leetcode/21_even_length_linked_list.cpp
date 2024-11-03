@@ -100,7 +100,9 @@ int main() {
         else
             cout << "false" << endl;
 
-        // Clean up the remaining nodes to avoid memory leaks
+        
+
+        
         while (head != NULL) {
             struct Node *temp = head;
             head = head->next;
