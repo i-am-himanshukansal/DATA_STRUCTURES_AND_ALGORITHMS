@@ -51,7 +51,7 @@ int main(){
     cout<<"Enter size of vector : ";
     cin>>n;
     vector<int>v;
-    cout<<"Enter elements in vector v : ";
+    cout<<"Ente r elements in vector v : ";
 
     for(int i =0;i<n;i++){
         int x;
