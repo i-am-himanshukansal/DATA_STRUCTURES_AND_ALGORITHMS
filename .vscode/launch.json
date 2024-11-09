@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/sorting",
-      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/sorting/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/CIRCULAR_LINEKD_LIST",
+      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/CIRCULAR_LINEKD_LIST/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
