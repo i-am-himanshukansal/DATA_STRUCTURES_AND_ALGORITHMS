@@ -25,20 +25,17 @@ void print(node*head){
         cout<<endl;
 }
 
-//naive method to insert by node not data changing 
+//naive method to insert just after head and swap head and head ->next data
 node*insert_at_beginning(node*head,int x){
         node*temp =new node(x);
         if(head==NULL){
                 temp->next = temp;
                 return temp;
         }else{
-                node*tail = head;
-                while(tail->next!=head){
-                        tail=tail->next;
-                }
-                tail->next=temp;
-                temp->next =head;
-                return temp;
+               temp->next= head->next;
+               head->next = temp;
+               swap(head->data,temp->data);
+               return head;
         }
         
 }
