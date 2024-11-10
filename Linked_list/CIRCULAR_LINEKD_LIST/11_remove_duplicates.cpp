@@ -28,29 +28,28 @@ node* remove_duplicates(node* head) {
     if (head == NULL || head->next == head) {
         return head; // No duplicates if the list is empty or has only one node
     }
-
+    node*prev  = NULL;
     node* curr = head;
 
-    // Traverse the circular linked list using a `while` loop
-    while (true) {
-        node* next_node = curr->next;
+    while(curr->next!=head){
+        prev = curr;
+        curr= curr->next;
 
-        // Inner loop to remove all consecutive duplicates of the current node
-        while (next_node != head && curr->data == next_node->data) {
-            node* temp = next_node;       // Store the duplicate node to delete
-            next_node = next_node->next;  // Move next_node to the next element
-            curr->next = next_node;       // Bypass the duplicate node
-            delete temp;                  // Delete the duplicate node
+        while(prev->data == curr->data && curr->next!=head){
+                node*temp = curr;
+                curr= curr->next;
+                prev->next = curr;
+                temp->next = NULL;
+                delete temp;
         }
 
-        // Move to the next unique node
-        curr = curr->next;
-
-        // Stop if we looped back to the head
-        if (curr == head) {
-            break;
-        }
     }
+    if(curr->data==prev->data){
+        prev->next = curr->next;
+        curr->next = NULL;
+        delete curr;
+    }
+
 
     return head;
 }
