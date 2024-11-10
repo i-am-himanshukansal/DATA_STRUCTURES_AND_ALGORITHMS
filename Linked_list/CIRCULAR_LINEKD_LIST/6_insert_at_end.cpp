@@ -24,6 +24,23 @@ void print(node*head){
         }while(temp!=head);
         cout<<endl;
 }
+
+node*insert_at_end(node*head,int x){
+        node*temp =new node(x);
+        if(head==NULL){
+                temp->next = temp;
+                return temp;
+        }else{
+                node*tail = head;
+                while(tail->next!=head){
+                        tail=tail->next;
+                }
+                tail->next=temp;
+                temp->next =head;
+                return head;
+        }
+        
+}
 node* createlinkedlist(vector<int>&v){
         if(v.size()==0){
                 return NULL;
@@ -40,24 +57,6 @@ node* createlinkedlist(vector<int>&v){
                  return head;
         }
        
-}
-node* delete_at_head(node*head){
-        if(head==NULL || head->next==head){
-                return NULL;
-        }else{
-                node*temp = head;
-                node*head2 = head->next;
-                while(temp->next!=head){
-                        temp = temp->next;
-                }
-                if(head->next == head){
-                        return NULL;
-                }
-                temp->next = head2;
-                head->next =NULL;
-                delete head;
-                return head2;
-        }
 }
 int main(){
 
@@ -77,7 +76,10 @@ int main(){
         node*head = createlinkedlist(v);
 
         print(head);
-        head = delete_at_head(head);
+        int x;
+        cout<<"enter data to be inserted : ";
+        cin>>x;
+        head = insert_at_end(head,x);
         cout<<"updated linked list be : ";
         print(head);
 
