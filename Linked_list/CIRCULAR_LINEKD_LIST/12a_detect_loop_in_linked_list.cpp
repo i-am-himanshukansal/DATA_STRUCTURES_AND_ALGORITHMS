@@ -83,11 +83,12 @@ int main(){
         
         
         cout<<detect_loop(head)<<endl;
+
+      
         
-        
-      }
         return 0;
 
 
 
 }
+ 
