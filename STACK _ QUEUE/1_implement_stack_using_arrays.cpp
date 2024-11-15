@@ -34,7 +34,7 @@ public:
                 return arr[top];
         }
         void resize(){
-                capacity *= 2;
+                capacity *= 2; 
                 int *newarr = new int[capacity];
                 for(int i=0;i<=top;i++){
                         newarr[i]=arr[i];
