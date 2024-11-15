@@ -1,6 +1,13 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
+// q.push(x)
+// q.pop()
+// q.size()
+// q.front()
+// q.back()
+// q.empty()
+// q.full()
 class Queue{
         private:
                 int start;

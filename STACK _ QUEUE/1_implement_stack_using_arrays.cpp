@@ -1,6 +1,12 @@
 #include<bits/stdc++.h>
 #include<iostream>
 using namespace std;
+// st.push(x)
+// st..pop()
+// st.size();
+// st.top();
+// st.empty();
+//st..full();
 class STACK{
 private:
         int *arr;
