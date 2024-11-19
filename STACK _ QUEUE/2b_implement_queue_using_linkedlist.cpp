@@ -100,7 +100,8 @@ int main(){
         q.dequeue();
         q.dequeue();
         q.dequeue();
-        q.dequeue();
+        q.dequeue();//dequeue
+
 
 
 
