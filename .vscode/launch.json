@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/CIRCULAR_LINEKD_LIST",
-      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/Linked_list/CIRCULAR_LINEKD_LIST/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/STACK _ QUEUE/2_postfix_infix_prefix_conversion",
+      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/STACK _ QUEUE/2_postfix_infix_prefix_conversion/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
