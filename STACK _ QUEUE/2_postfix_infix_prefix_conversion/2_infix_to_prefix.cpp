@@ -21,10 +21,17 @@ string infix_to_prefix(string &s){
             }
             st.pop();
         }else{
-            while(!st.empty() && prior[s[i]]<prior[st.top()]){
+           if(s[i]=='^'){
+             while(!st.empty() && prior[s[i]]<=prior[st.top()]){
                 ans+=st.top();
                 st.pop();
             }
+           }else{
+             while(!st.empty() && prior[s[i]]<prior[st.top()]){
+                ans+=st.top();
+                st.pop();
+            }
+           }
             st.push(s[i]);
         }
         i++;
