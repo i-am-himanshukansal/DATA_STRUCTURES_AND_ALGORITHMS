@@ -28,7 +28,7 @@ class Solution {
     }
 };
 
-//{ Driver  
+//{   
 
 int main() {
     int t;
