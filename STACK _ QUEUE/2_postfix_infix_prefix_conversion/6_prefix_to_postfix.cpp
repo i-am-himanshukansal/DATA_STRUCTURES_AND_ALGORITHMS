@@ -27,7 +27,8 @@ string prefix_to_postfix(string &s){
 }
 
 int main(){
-        int t;
+        int t;//test cases
+        
         cout<<"enter test cases : ";
         cin>>t;
         while(t--){
