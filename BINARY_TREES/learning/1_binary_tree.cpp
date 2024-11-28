@@ -30,9 +30,9 @@ node*buildtree(node*root){
         return root;
 
 }
-int print_binarytree(node*root){
+void print_binarytree(node*root){
 
-    
+    if( )
 
 }
 int main(){
