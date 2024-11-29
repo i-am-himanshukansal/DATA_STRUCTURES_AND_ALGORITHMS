@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/BINARY_TREES/learning",
-      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/BINARY_TREES/learning/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/.cph",
+      "program": "c:/Users/asus/bitsstdc+++/CODER + DEV/DATA STRUCTURES ALGO/.cph/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
